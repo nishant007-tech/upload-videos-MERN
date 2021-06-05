@@ -46,8 +46,8 @@ button{
 }
 .spinLoader{
   position: fixed;
-  top: 40%;
-  left: 0%;
+  top: 44%;
+  left: 50%;
   width: 70px;
   height: 70px;
 }
@@ -102,5 +102,8 @@ video{
   }
   .allVideos .eachVideo {
   margin: 20px 0 20px 0;
+  }
+  .spinLoader{
+    left: 45%;
   }
 }
