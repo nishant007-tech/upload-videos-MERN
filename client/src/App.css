@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.uploadContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+.uploadContainer form span i{
+  color: blue;
+}
+.uploadContainer form span{
+  font-size: 13px;
+  padding: 3px;
+}
+.uploadContainer form{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  height: 80%;
+  box-shadow: 0 0 3px 1px blue ;
+  border-radius: 5px;
+}
+.txtField{
+  margin: 20px !important;
+}
+.uploadContainer p{
+  font-size: 30px;
+  margin: 14px;
+  color: rgb(99, 99, 99);
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+  margin: 5px !important;
+}
+button{
+  margin: 25px !important;
+}
+.spinLoader{
+  position: fixed;
+  top: 40%;
+  left: 0%;
+  width: 70px;
+  height: 70px;
+}
+
+.allVideos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.allVideos .eachVideo{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  flex-direction: column;
+  box-shadow: 0 0 6px 2px rgb(13, 5, 129)  ;
+  width: 30%;
+  padding: 12px 20px 12px 20px;
+  background-color: rgb(247, 247, 247);
+}
+.allVideos .eachVideo span{
+  color: grey;
+  letter-spacing: 1px;
+  margin: 5px 0px 5px 0;
+  display: flex;
+  justify-content: space-around;
+}
+a{
+  text-decoration: none;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+}
+video{
+  box-shadow: 0 0 1px 1px gray;
+  height: max-content;
+}
+@media screen and (max-width: 900px) {
+  .uploadContainer form{
+    height: 90%;
+    width: 90%;
+  }
+  .allVideos{
+    flex-direction: column;
+    align-items: center;
+  }
+  .eachVideo{
+    width: 80% !important;
+  }
+  .allVideos .eachVideo span{
+    margin: 3px 0px 3px 4px;
+  }
+  .allVideos .eachVideo {
+  margin: 20px 0 20px 0;
+  }
+}
