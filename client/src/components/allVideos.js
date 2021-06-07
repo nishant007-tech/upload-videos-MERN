@@ -16,7 +16,6 @@ function AllVideos() {
             let resData = await axios.get('/getAllVideos');
             if (resData.data.length > 0) {
                 setVideos(resData.data);
-                console.log(resData)
                 setPages(Math.ceil(resData.data.length / 4));
             }
         }
