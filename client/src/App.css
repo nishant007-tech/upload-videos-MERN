@@ -64,6 +64,7 @@ button{
   flex-direction: column;
   box-shadow: 0 0 6px 2px rgb(13, 5, 129)  ;
   width: 30%;
+  height: max-content;
   padding: 12px 20px 12px 20px;
   background-color: rgb(247, 247, 247);
 }
@@ -83,7 +84,8 @@ a{
 }
 video{
   box-shadow: 0 0 1px 1px gray;
-  height: max-content;
+  height: 255px;
+  object-fit: cover;
 }
 @media screen and (max-width: 900px) {
   .uploadContainer form{
